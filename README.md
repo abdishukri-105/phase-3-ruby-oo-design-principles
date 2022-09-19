@@ -216,10 +216,6 @@ method, having _abstracted_ away the value of the coupon, will still work. This
 is the benefit of abstraction, and we prefer abstracting out attributes by
 wrapping them inside methods over having our code rely on literal values.
 
-Our new `#coupon` method is what is referred to as a **helper method**. It
-functions to assist our `#checkout` method and is called inside the checkout
-method.
-
 ### Line Limits on Methods and Classes
 
 Another OO principle states that **methods should not exceed 5 lines of code**
